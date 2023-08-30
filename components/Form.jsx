@@ -1,9 +1,15 @@
 import React from 'react'
 
 const Form = () => {
-  return (
-    <div>Form</div>
-  )
+  <form>
+      <input 
+      title='name'
+      placeholder='name here'
+      >
+
+      </input>
+  </form>
+  
 }
 
 export default Form
