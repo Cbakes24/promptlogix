@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Feed from "@components/Feed"
 
 const Home = () => {
@@ -6,9 +6,8 @@ const Home = () => {
     <section className="w-full flex-center flex-col">
         <h1 className="head_text text-center">
             Discover & Share
-            <br className='max-md:hidden' /> 
-            {/*hidden was making the second line show on the first?*/}
-            <span className='orange_gradient text-center'>AI-Powered Prompts</span>
+            <br className='lg:hidden' /> 
+            <span className='orange_gradient text-center max-md:text-3xl'> AI-Powered Prompts</span>
         </h1>
         <p className="desc text-center">
             Promptlogix is an open-source AI prompting 
